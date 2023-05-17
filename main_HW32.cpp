@@ -94,7 +94,7 @@ int main()
 	cout
 		<< "\n Task:"
 		<< "\n\t1 - math operations"
-		<< "\n\t2 - array min, max"
+		<< "\n\t2 - array min, max, simple average"
 		<< "\n\t3 - array sorting"
 		<< "\n Enter num: ";
 
@@ -109,8 +109,13 @@ restart0:
 
 	if (!n)
 		Task1();
-	void(*operation[2])(int[], int&) = { Task2, Task3 };
-	operation[n](arr, size);
+	else
+	{
+		n--;
+		void(*operation[2])(int[], int&) = { Task2, Task3 };
+		operation[n](arr, size);
+	}
+	
 
 	return 0;
 }
