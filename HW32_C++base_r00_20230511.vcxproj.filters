@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Task1_HW32.cpp">
+    <ClCompile Include="main_HW32.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="Function1.cpp">
@@ -24,12 +24,18 @@
     <ClCompile Include="checkV.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="array_utils.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Function1.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="checkV.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="array_utils.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
