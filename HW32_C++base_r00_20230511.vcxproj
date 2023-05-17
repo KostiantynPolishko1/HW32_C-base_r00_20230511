@@ -128,7 +128,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="checkV.cpp" />
-    <ClCompile Include="Function1.cpp" />
+    <ClCompile Include="math_utils.cpp" />
     <ClCompile Include="array_utils.cpp" />
     <ClCompile Include="main_HW32.cpp" />
     <ClCompile Include="sorting_utils.cpp" />
@@ -136,7 +136,7 @@
   <ItemGroup>
     <ClInclude Include="array_utils.h" />
     <ClInclude Include="checkV.h" />
-    <ClInclude Include="Function1.h" />
+    <ClInclude Include="math_utils.h" />
     <ClInclude Include="sorting_utils.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
