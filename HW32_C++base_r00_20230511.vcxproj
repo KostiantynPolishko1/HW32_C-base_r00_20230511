@@ -127,7 +127,13 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="checkV.cpp" />
+    <ClCompile Include="Function1.cpp" />
     <ClCompile Include="Task1_HW32.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="checkV.h" />
+    <ClInclude Include="Function1.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
