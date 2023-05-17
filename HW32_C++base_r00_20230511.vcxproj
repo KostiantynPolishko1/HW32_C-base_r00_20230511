@@ -131,11 +131,13 @@
     <ClCompile Include="Function1.cpp" />
     <ClCompile Include="array_utils.cpp" />
     <ClCompile Include="main_HW32.cpp" />
+    <ClCompile Include="sorting_utils.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="array_utils.h" />
     <ClInclude Include="checkV.h" />
     <ClInclude Include="Function1.h" />
+    <ClInclude Include="sorting_utils.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

@@ -1,6 +1,7 @@
 #include<iostream>
 #include "Function1.h"
 #include "array_utils.h"
+#include "sorting_utils.h"
 #include "checkV.h"
 using namespace std;
 
@@ -34,8 +35,8 @@ void Task1()
 //double calculateAverage(int arr[], int size) : function takes the array of int values and his size and return simple average in array
 void Task2()
 {
-	int arr[]{ 0, 2, 9, 8, 1, -2, -5, 10, -15, 2, -3 };
-	int max = 0, min = 0, size = 0;
+	int arr[]{ 0, 2, 9, 8, 1, -2, -5, 10, -15, 2, -3 }, size = 0;
+	int max = 0, min = 0;
 	double  ma = 0;
 
 	size = sizeof(arr) / sizeof(arr[0]);
@@ -53,10 +54,30 @@ void Task2()
 	
 }
 
+//Task3
+//Write the header file "sorting_utils.h", which has declaretion of next function for sorting:
+//void bubbleSort(int arr[], int size): sorting array of int values by algoritm bubble in ascending order;
+//void selectionSort(int arr[], int size): sorting array of int values by algoritm select in ascending order;
+//void insertionSort(int arr[], int size): sorting array of int values by algoritm insert in ascending order;
+void Task3()
+{
+	int arr[]{ 0, 2, 9, 8, 1, -2, -5, 10, -15, 2, -3 }, size = 0;
+	size = sizeof(arr) / sizeof(arr[0]);
+
+	cout << "\n Array: ";
+	for (auto i : arr)
+		cout << i << " ";
+
+	//bubbleSort(arr, size);
+	//selectionSort(arr, size);
+	insertionSort(arr, size);
+}
+
 int main()
 {
-	Task1();
-	Task2();
+	//Task1();
+	//Task2();
+	Task3();
 
 	return 0;
 }
